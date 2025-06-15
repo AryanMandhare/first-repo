@@ -19,8 +19,7 @@ font-family: Arial, sans-serif;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    
-}
+    }
 h1 {
     font-size: 26px;
     margin-bottom: 15px;
@@ -48,6 +47,16 @@ li {
     font-size: 18px;
     background: #007bff;
     padding: 10px;
-    margin: 5px;
+      margin: 5px; 
     border-radius: 5px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: #a07718;
+}
+li:hover{
+    background: #0056b3;
+    scale:  1.05;
 }
